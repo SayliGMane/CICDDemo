@@ -20,8 +20,8 @@ jobs:
       with:
         flutter-version: '3.13.9' # Use your current Flutter version or latest stable
 
-    - name: Install dependencies
-      run: flutter pub get
+    # - name: Install dependencies
+    #   run: flutter pub get
 
     - name: Run Flutter analyze
       run: flutter analyze
